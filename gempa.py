@@ -2,6 +2,8 @@
   Ini adalah script sederhana,
   sangat boleh untuk dipelajari.
   
+  Dev : Dimas Syauqi
+  
   Terima kasih.
 """
 from __future__ import print_function
