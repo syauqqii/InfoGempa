@@ -53,7 +53,7 @@ def main():
 	if os.name == "nt":
 		os.system(f"{filename}")
 	elif os.name == "posix":
-		os.system(f"@termux-open {filename}||eog {filename}")
+		os.system(f"termux-open {filename}||eog {filename}")
 	else:
 		pass
 
