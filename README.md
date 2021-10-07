@@ -2,7 +2,7 @@
 Aplikasi berbasis CLI untuk mengetahui informasi gempa terkini.
 
 # sumber-data
-Data yang diambil berasal dari [BMKG] (https://www.bmkg.go.id/)
+Data yang diambil berasal dari [BMKG](https://www.bmkg.go.id/).
 
 # instalasi
 ```
