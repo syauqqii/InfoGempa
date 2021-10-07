@@ -1,15 +1,11 @@
 """
   Ini adalah script sederhana,
-  boleh untuk dipelajari.
+  sangat boleh untuk dipelajari.
   
   Terima kasih.
 """
 from __future__ import print_function
-import os
-import json
-import time
-import shutil
-import requests
+import os, json, shutil, requests
 
 def clearConsole():
 	if os.name == "nt":
@@ -62,6 +58,4 @@ if __name__ == '__main__':
 		main()
 	except KeyboardInterrupt:
 		clearConsole()
-		print("[!] Have a nice day ...")
-		time.sleep(2)
 		exit()
