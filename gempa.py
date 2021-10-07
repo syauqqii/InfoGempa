@@ -50,7 +50,12 @@ def main():
 	    # print('\n[!] Gagal download peta gempa')
 	    pass
 
-	os.system(f"{filename}")
+	if os.name == "nt":
+		os.system(f"{filename}")
+	elif os.name == "posix":
+		os.system(f"@termux-open {filename}||eog {filename}")
+	else:
+		pass
 
 if __name__ == '__main__':
 	try:
