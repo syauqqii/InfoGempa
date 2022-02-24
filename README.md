@@ -1,10 +1,10 @@
-# info-gempa
+# Info Gempa
 Aplikasi berbasis CLI untuk mengetahui informasi gempa terkini.
 
-# sumber-data
+# Sumber Data
 Data yang diambil berasal dari [BMKG](https://www.bmkg.go.id/).
 
-# instalasi
+# Instalasi
 1. Lakukan update dan upgrade
 ```
 apt update && apt upgrade -y
