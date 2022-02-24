@@ -15,11 +15,11 @@ apt install python git -y
 ```
 3. Download repositories dengan command :
 ```
-git clone https://github.com/syauqqii/info-gempa.git
+git clone https://github.com/syauqqii/InfoGempa.git
 ```
-4. Masuk ke folder info-gempa
+4. Masuk ke folder InfoGempa
 ```
-cd info-gempa
+cd InfoGempa
 ```
 5. Instal library requests
 ```
